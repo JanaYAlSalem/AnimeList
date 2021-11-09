@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/josei"
+        android:title="@string/josei"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/shonen"
+        android:title="@string/shonen"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/kodomomuke"
+        android:title="@string/kodomomuke"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/logout"
+        android:title="@string/josei"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/shojo"
+        android:title="@string/shojo"
+        app:showAsAction="never"
+        />
+</menu>
