@@ -16,7 +16,6 @@ class Episodes_ListFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
     }
 
     override fun onCreateView(
@@ -26,6 +25,4 @@ class Episodes_ListFragment : Fragment() {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_episodes__list, container, false)
     }
-
-//AS
 }

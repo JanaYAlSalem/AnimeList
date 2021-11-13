@@ -7,7 +7,6 @@ import com.example.animelist.adapter.itemadapter
 import com.example.animelist.data.Dataset
 import com.example.animelist.databinding.ActivityMainBinding
 
-
 class MainActivity : AppCompatActivity() {
     lateinit var LinkXml: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
