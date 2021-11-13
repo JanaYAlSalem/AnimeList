@@ -27,5 +27,5 @@ class Episodes_ListFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_episodes__list, container, false)
     }
 
-
+//AS
 }
