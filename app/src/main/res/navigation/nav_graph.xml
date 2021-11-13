@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph">
+    <fragment
+        android:id="@+id/animeFragment"
+        android:name="com.example.cupcake.StartFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_anime">
+        <action
+            android:id="@+id/action_animeFragment_to_episodesFragment"
+            app:destination="@id/episodesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/episodesFragment"
+        android:name="com.example.cupcake.FlavorFragment"
+        android:label="@string/choose_flavor"
+        tools:layout="@layout/fragment_episodes_list">
+    </fragment>
 
 </navigation>
