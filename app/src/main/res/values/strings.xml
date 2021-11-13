@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AnimeList</string>
+    <string name="app_name">Anime List</string>
     <!-- name of anime -->
     <string name="anime1">Hajime no lppo</string>
     <string name="anime2">Kingdom</string>
@@ -7,10 +7,10 @@
     <string name="anime4">Death Note</string>
     <string name="anime5">Yakusoku no Neverland</string>
     <string name="anime6">Re:Zer Kara Hajimeru Isekai Seikatsu</string>
-    <string name="anime7">Tensei</string>
-    <string name="anime8">Hajime no lppo</string>
-    <string name="anime9">Hajime no lppo</string>
-    <string name="anime10">Hajime no lppo</string>
+    <string name="anime7">Tensei shitara Slime Datta Ken</string>
+    <string name="anime8">Fullmetal Alchemist: Brotherhood</string>
+    <string name="anime9">Vinland Saga</string>
+    <string name="anime10">One Piece</string>
 
     <!-- type of anime -->
     <string name="shonen">shonen</string>

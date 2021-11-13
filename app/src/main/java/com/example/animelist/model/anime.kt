@@ -2,8 +2,9 @@ package com.example.animelist.model
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
 
-class animeViewModel ()
+class animeViewModel: ViewModel()
       {
     private val _imge = MutableLiveData<Int>()
      val image : LiveData<Int> = _imge
